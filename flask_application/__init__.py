@@ -6,6 +6,12 @@ from flask_login import LoginManager
 from flask import redirect
 import logging
 
+__author__ = "Antti Kallonen"
+__copyright__ = "Copyright 2016, Tampere University of Technology"
+__license__ = "MIT"
+__version__ = "1.0"
+__email__ = "antti.kallonen@tut.fi"
+
 FLASK_APP_DIR = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__,
             template_folder=os.path.join(FLASK_APP_DIR, '..', 'templates'),

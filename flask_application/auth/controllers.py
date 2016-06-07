@@ -9,6 +9,12 @@ from flask_application.user.models import User
 import logging
 from flask_application.mydata.mydatacontroller import mydatacontroller
 
+__author__ = "Antti Kallonen"
+__copyright__ = "Copyright 2016, Tampere University of Technology"
+__license__ = "MIT"
+__version__ = "1.0"
+__email__ = "antti.kallonen@tut.fi"
+
 
 class AuthAPI(ProtectedResource):
     def post(self, id):

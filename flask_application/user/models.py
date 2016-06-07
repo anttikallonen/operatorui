@@ -2,6 +2,12 @@ from flask_application.database.memorydb import MemoryDatabase
 from flask_login import login_user
 from flask_application import login_manager
 
+__author__ = "Antti Kallonen"
+__copyright__ = "Copyright 2016, Tampere University of Technology"
+__license__ = "MIT"
+__version__ = "1.0"
+__email__ = "antti.kallonen@tut.fi"
+
 
 class UserDatabase(MemoryDatabase):
     def get_one(self, id):

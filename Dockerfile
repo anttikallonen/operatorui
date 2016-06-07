@@ -1,5 +1,5 @@
 # Start with TensorFlow image
-FROM tensorflow/tensorflow:latest-devel-gpu
+FROM ubuntu:14.04
 MAINTAINER Antti
 
 # Install required packages

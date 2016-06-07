@@ -6,6 +6,12 @@ from flask_application.config import app_config
 from flask_application.user.models import userdb
 from flask_application.service.models import servicedb
 
+__author__ = "Antti Kallonen"
+__copyright__ = "Copyright 2016, Tampere University of Technology"
+__license__ = "MIT"
+__version__ = "1.0"
+__email__ = "antti.kallonen@tut.fi"
+
 
 def populate_databases():
     users = dict()

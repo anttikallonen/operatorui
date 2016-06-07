@@ -8,6 +8,12 @@ from flask_login import logout_user
 from flask import jsonify
 import logging
 
+__author__ = "Antti Kallonen"
+__copyright__ = "Copyright 2016, Tampere University of Technology"
+__license__ = "MIT"
+__version__ = "1.0"
+__email__ = "antti.kallonen@tut.fi"
+
 
 class CurrentUserAPI(ProtectedResource):
     def get(self):
